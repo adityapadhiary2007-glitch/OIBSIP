@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background: #eee9df;
+}
+
+h1, h2, blockquote {
+    font-family: Georgia, serif;
+}
+
+
+
+.hero {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    background:
+        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.65)),
+        url("https://upload.wikimedia.org/wikipedia/commons/8/82/Mt.Everest.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.hero-text span {
+    font-size: 1.1rem;
+}
+
+
+
+.about {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 25px;
+
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.photo img {
+    width: 300px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.content {
+    flex: 1;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+
+
+.achievements {
+    background: white;
+    padding: 50px 25px;
+}
+
+.achievements h2 {
+    text-align: center;
+}
+
+.timeline {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.timeline div {
+    padding: 15px 20px;
+    border-left: 4px solid #333;
+    margin-bottom: 20px;
+}
+
+.timeline strong {
+    font-size: 1.2rem;
+}
+
+
+
+.quote {
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 45px 30px;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 1.8rem;
+    font-style: italic;
+    margin: 0;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #17202a;
+    color: white;
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    .hero {
+        height: 65vh;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .photo img {
+        width: 250px;
+        height: 300px;
+    }
+
+    blockquote {
+        font-size: 1.4rem;
+    }
+}
