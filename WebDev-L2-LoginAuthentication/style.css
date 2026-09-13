@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.box {
+    width: 350px;
+    background: #111;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 span {
+    color: rgb(240, 56, 56);
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 7px 0;
+    background: #222;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    background: rgb(240, 56, 56);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(240, 56, 56);
+    cursor: pointer;
+}
+
+#message {
+    color: rgb(240, 56, 56);
+}
